@@ -9,7 +9,7 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import bgAbout from "../../assets/marvin-meyer-SYTO3xs06fU-unsplash 1.png";
+import bgAbout from "../../../public/assets/marvin-meyer-SYTO3xs06fU-unsplash 1.png";
 
 export default function About() {
   return (

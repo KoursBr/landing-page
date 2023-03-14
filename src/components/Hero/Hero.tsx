@@ -8,8 +8,8 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import HeroDrawing from "../../assets/undraw_teaching.svg";
-import TwoLines from "../../assets/undraw_two-lines.svg";
+import HeroDrawing from "../../../public/assets/undraw_teaching.svg";
+import TwoLines from "../../../public/assets/undraw_two-lines.svg";
 
 export default function Hero() {
   return (
