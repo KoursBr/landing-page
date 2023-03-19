@@ -8,8 +8,6 @@ import {
   Collapse,
   Icon,
   Link,
-  Popover,
-  PopoverTrigger,
   PopoverContent,
   useColorModeValue,
   useBreakpointValue,
@@ -78,7 +76,7 @@ export default function Navbar() {
             fontWeight={"bold"}
             color={"white"}
             bg={"primary"}
-            minW={"168px"}
+            minW={"150px"}
             rounded={"3xl"}
             href={"#"}
             _hover={{
