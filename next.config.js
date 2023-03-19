@@ -15,6 +15,8 @@ if (isGithubActions) {
 
 const nextConfig = {
   reactStrictMode: true,
+  assetPrefix: assetPrefix,
+  basePath: basePath,
   images: {
     loader: 'imgix',
     path: 'https://teachmate.imgix.net/',

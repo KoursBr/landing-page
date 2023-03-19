@@ -5,11 +5,8 @@ import {
   Stack,
   Text,
   Box,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import Image from "next/image";
-
-const imageSrc = 'undraw_teaching.svg';
 
 export default function Hero() {
   return (
@@ -26,7 +23,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src='undraw_two-lines.svg' loader={({src})=> src} alt='Two lines tilted 30 deg' fill />
+              <Image src='undraw_two-lines.svg' alt='Two lines tilted 30 deg' fill />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -67,7 +64,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={imageSrc} loader={({src})=> src}  fill />
+        <Image alt={"Login Image"} objectFit={"cover"} src='undraw_teaching.svg'  fill />
       </Flex>
     </Stack>
   );
