@@ -10,7 +10,7 @@ export default function About() {
   return (
     <Stack position={"relative"}>
       <Box>
-        <Image src='/assets/marvin-meyer-SYTO3xs06fU-unsplash 1.png' alt="" width={3000} height={3000}/>
+        <Image src='/marvin-meyer-SYTO3xs06fU-unsplash 1.png' alt="" width={3000} height={3000}/>
       </Box>
       <Box
         position={"absolute"}
