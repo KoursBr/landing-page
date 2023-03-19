@@ -8,8 +8,6 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import HeroDrawing from "../../assets/undraw_teaching.svg";
-import TwoLines from "../../assets/undraw_two-lines.svg";
 
 export default function Hero() {
   return (
@@ -26,7 +24,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src={TwoLines} alt={""} />
+              <Image src='/assets/undraw_two-lines.svg' alt={""} />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -67,7 +65,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={HeroDrawing} />
+        <Image alt={"Login Image"} objectFit={"cover"} src='/assets/undraw_teaching.svg' />
       </Flex>
     </Stack>
   );
