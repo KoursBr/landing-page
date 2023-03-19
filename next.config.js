@@ -17,7 +17,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: 'imgix',
-    path: 'teachmate.imgix.net ',
+    path: 'teachmate.imgix.net',
   }
 }
 
