@@ -24,7 +24,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src='/assets/undraw_two-lines.svg' alt={""}  width={40} height={40} />
+              <Image src='/undraw_two-lines.svg' alt={""}  width={40} height={40} />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -65,7 +65,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src='/assets/undraw_teaching.svg' width='500' height='500' />
+        <Image alt={"Login Image"} objectFit={"cover"} src='/undraw_teaching.svg' width='500' height='500' />
       </Flex>
     </Stack>
   );
