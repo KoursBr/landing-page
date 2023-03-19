@@ -15,7 +15,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import ContactUsimg from "../../assets/contactIMG.svg";
+import ContactUsimg from "../../../public/assets/contactIMG.svg";
 import Image from "next/image";
 
 export default function Contact() {

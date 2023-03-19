@@ -9,8 +9,8 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import Waves from "../../assets/wavesFooter.svg";
-import TeachMateLogo from "../../assets/LogoTeachMateWhite.svg";
+import Waves from "../../../public/assets/wavesFooter.svg";
+import TeachMateLogo from "../../../public/assets/LogoTeachMateWhite.svg";
 
 export default function About() {
   return (

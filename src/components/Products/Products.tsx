@@ -11,13 +11,13 @@ import {
   GridItem,
 } from "@chakra-ui/react";
 import Image from "next/image";
-import pc from "../../assets/pc.svg";
-import grafico from "../../assets/grafico.svg";
-import chat from "../../assets/chat.svg";
-import money from "../../assets/money.svg";
-import dots from "../../assets/dots.svg";
-import squircle from "../../assets/squircle2.svg";
-import rectangle from "../../assets/Rectangle.svg";
+import pc from "../../../public/assets/pc.svg";
+import grafico from "../../../public/assets/grafico.svg";
+import chat from "../../../public/assets/chat.svg";
+import money from "../../../public/assets/money.svg";
+import dots from "../../../public/assets/dots.svg";
+import squircle from "../../../public/assets/squircle2.svg";
+import rectangle from "../../../public/assets/Rectangle.svg";
 
 export default function About() {
   return (
