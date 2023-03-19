@@ -11,7 +11,7 @@ export default function About() {
   return (
     <Stack position={"relative"}>
       <Box>
-        <Image src={BackgroundAsset} alt="Computer background" fill/>
+        <Image src={BackgroundAsset} alt="Computer background" />
       </Box>
       <Box
         position={"absolute"}

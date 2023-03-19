@@ -26,7 +26,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src={TwoLinesAsset} alt='Two lines tilted 30 deg' fill />
+              <Image src={TwoLinesAsset} alt='Two lines tilted 30 deg' />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -67,7 +67,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={TeachingAsset} fill />
+        <Image alt={"Login Image"} objectFit={"cover"} src={TeachingAsset} />
       </Flex>
     </Stack>
   );
