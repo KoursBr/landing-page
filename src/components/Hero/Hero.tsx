@@ -7,6 +7,9 @@ import {
   Box,
 } from "@chakra-ui/react";
 import Image from "next/image";
+import TwoLinesAsset from "../../../public/assets/undraw_two-lines.svg";
+import TeachingAsset from "../../../public/assets/undraw_teaching.svg";
+
 
 export default function Hero() {
   return (
@@ -23,7 +26,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src='undraw_two-lines.svg' alt='Two lines tilted 30 deg' fill />
+              <Image src={TwoLinesAsset} alt='Two lines tilted 30 deg' fill />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -64,7 +67,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src='undraw_teaching.svg'  fill />
+        <Image alt={"Login Image"} objectFit={"cover"} src={TeachingAsset} fill />
       </Flex>
     </Stack>
   );

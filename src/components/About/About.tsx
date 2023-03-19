@@ -5,12 +5,13 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import Image from "next/image";
+import BackgroundAsset from "../../../public/assets/marvin-meyer-SYTO3xs06fU-unsplash 1.png";
 
 export default function About() {
   return (
     <Stack position={"relative"}>
       <Box>
-        <Image src='/marvin-meyer-SYTO3xs06fU-unsplash 1.png' alt="" width={3000} height={3000}/>
+        <Image src={BackgroundAsset} alt="Computer background" fill/>
       </Box>
       <Box
         position={"absolute"}

@@ -1,12 +1,6 @@
 import {
-  Button,
-  Flex,
-  Heading,
   Stack,
-  Text,
   Box,
-  useBreakpointValue,
-  Divider,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import Waves from "../../../public/assets/wavesFooter.svg";
