@@ -9,6 +9,8 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 
+const imageSrc = 'undraw_teaching.svg';
+
 export default function Hero() {
   return (
     <Stack
@@ -24,7 +26,7 @@ export default function Hero() {
             position={"relative"}
           >
             <Box position={"absolute"} left={"-25px"} top={"-15px"}>
-              <Image src='/undraw_two-lines.svg' alt={""}  width={40} height={40} />
+              <Image src='undraw_two-lines.svg' alt={""}  width={40} height={40} />
             </Box>
             <Text as={"span"} position={"relative"}>
               Sua plataforma
@@ -65,7 +67,7 @@ export default function Hero() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src='/undraw_teaching.svg' width='500' height='500' />
+        <Image alt={"Login Image"} objectFit={"cover"} src={imageSrc} width='500' height='500' />
       </Flex>
     </Stack>
   );
